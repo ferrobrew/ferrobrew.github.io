@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pyxis Documentation Viewer</title>
+    <script>
+      // Prevent flash of unstyled content by setting theme immediately
+      (function() {
+        const stored = localStorage.getItem('theme');
+        const theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-CDn9R62m.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CvUq1dmO.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
